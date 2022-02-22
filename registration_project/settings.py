@@ -45,6 +45,7 @@ INSTALLED_APPS = [
 
     # custom apps
     'applications.account',
+    'applications.product',
 ]
 
 MIDDLEWARE = [
@@ -122,6 +123,7 @@ TIME_ZONE = 'Asia/Bishkek'
 USE_I18N = True
 
 USE_TZ = True
+
 
 
 # Static files (CSS, JavaScript, Images)
